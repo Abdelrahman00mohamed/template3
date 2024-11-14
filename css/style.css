@@ -1,0 +1,35 @@
+.bg-a{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+/* start header  */
+header{
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header .header-content h1{
+ font-size: 4rem;
+}
+header .header-content h2{
+  font-size: 3rem;
+}
+header .header-content button{
+  padding: 1.5rem 3rem;
+}
+header .header-content .btn-primary{
+  background-color: #ee0979;
+  border: #ee0979;
+  &:hover{
+    background-color: #be0761;
+  }
+}
+
